@@ -1,0 +1,20 @@
+body {
+	background-color: #bde1d6;
+}
+
+.container {
+	text-align: center;
+
+	background-color: #eec220;
+	border-radius: 5px;
+}
+
+.trophy {
+	text-align: center;
+
+}
+
+h1 {
+	font-family: fantasy;
+	font-size: 8em;
+}

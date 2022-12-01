@@ -1,10 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" xmlns:th="http://wwwthymeLeaf.org">
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="" th:href="@{style.css}" />
+<title>Best of the year</title>
 </head>
 <body>
-	<h1>Best of the year by [[${name}]]</h1>
+	<div class="container">
+		<h1>Best of the year by [[${name}]]</h1>
+	</div>
+	<div class="trophy"> <img th:src="@{/images/cup.png}" alt="cup"> 
+	</div>
+
+	<script type="text/javascript" src="" th:src="@{script.js}"></script>
 </body>
 </html>
